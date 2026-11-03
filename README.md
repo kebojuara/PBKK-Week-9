@@ -482,7 +482,3 @@ The clean public export passed **45 PHPUnit tests (1 explicit opt-in skip), 112 
 
 - [CodeIgniter 4](https://codeigniter.com/) and its [server requirements](https://www.codeigniter.com/user_guide/intro/requirements.html).
 - [SB Admin 2](https://github.com/StartBootstrap/startbootstrap-sb-admin-2), Bootstrap, Font Awesome, Bootstrap Icons, jQuery, Chart.js and the font providers used in the templates. Existing upstream license notices remain with the assets; no new project license is assigned here.
-- Coursework specification: the PBKK Week 9 guide used during implementation. Other students' PDF/README examples were not available locally and no text or images from them were copied.
-
-**William Hans Chandra — 5025241138**  
-**Pemrograman Berbasis Kerangka Kerja D**
