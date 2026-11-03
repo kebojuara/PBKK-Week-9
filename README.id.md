@@ -12,7 +12,7 @@
 | Materi | Framework CodeIgniter, Latihan 1 dan 2 |
 | Proyek | StudentPortal, SIAKAD, KampusMart |
 
-Dokumen ini merupakan laporan akademik implementasi tiga aplikasi dalam satu repository. Penjelasan, nama tabel, rute, aturan bisnis, dan potongan kode mengacu pada source yang disertakan. Seluruh gambar adalah render aplikasi sendiri melalui Chrome, bukan gambar dari laporan mahasiswa lain. Dokumentasi utama GitHub tersedia dalam [bahasa Inggris](README.md).
+Dokumen ini merupakan laporan akademik implementasi tiga aplikasi dalam satu repository. Penjelasan, nama tabel, rute, aturan bisnis, dan potongan kode mengacu pada source yang disertakan. Dokumentasi utama GitHub tersedia dalam [bahasa Inggris](README.md).
 
 ## Daftar isi
 
@@ -846,9 +846,6 @@ Repository tunggal membantu penilaian tiga latihan tanpa mencampurkan akun atau 
 
 ## 12. Referensi
 
-- Panduan PBKK Week 9 yang digunakan sebagai persyaratan implementasi: StudentPortal, SIAKAD dan KampusMart. Dokumen internal tersebut tidak dipublikasikan ulang sebagai source atau gambar.
 - [CodeIgniter 4 — dokumentasi resmi](https://codeigniter.com/), [kebutuhan server](https://www.codeigniter.com/user_guide/intro/requirements.html), dan [perbandingan peningkatan CI3 ke CI4](https://codeigniter.com/user_guide/installation/upgrade_4xx.html).
 - [SB Admin 2](https://github.com/StartBootstrap/startbootstrap-sb-admin-2) beserta atribusi Bootstrap, jQuery, Font Awesome dan Chart.js pada aset yang disertakan.
 - Source dan tes aktual di [StudentPortal](StudentPortal/), [SIAKAD](SIAKAD/) dan [KampusMart](KampusMart/).
-
-PDF/README mahasiswa lain tidak tersedia pada folder referensi lokal ketika pengerjaan dokumentasi ini. Struktur laporan disusun dari kebutuhan tugas dan kode sendiri; tidak ada isi atau gambar referensi mahasiswa lain yang disalin. Identitas laporan tetap **William Hans Chandra, 5025241138, Pemrograman Berbasis Kerangka Kerja D**.
