@@ -1,0 +1,17 @@
+* text=auto
+*.php text eol=lf
+*.md text eol=lf
+*.sh text eol=lf
+*.json text eol=lf
+*.png binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+
+# Preserve upstream distribution formatting and treat SVG font binaries as fonts.
+**/public/assets/sb-admin-2/** -whitespace
+**/public/assets/sb-admin-2/vendor/fontawesome-free/webfonts/*.svg binary
+**/public/robots.txt -whitespace
+# Two trailing spaces are an intentional Markdown hard line break.
+*.md whitespace=-blank-at-eol

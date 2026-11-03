@@ -1,0 +1,83 @@
+/* SIAKAD — penyesuaian SB Admin 2: biru akademik, sidebar navy, badge nilai semantik */
+:root {
+    --sk-primary: #1e40af;
+    --sk-primary-dark: #1e3a8a;
+    --sk-navy: #172554;
+    --sk-soft: #dbeafe;
+    --sk-success: #15803d;
+    --sk-warning: #b45309;
+    --sk-danger: #b91c1c;
+}
+
+body,
+.tooltip,
+.popover { font-family: "Atkinson Hyperlegible", "Nunito", system-ui, sans-serif; }
+
+.sidebar-siakad { background: linear-gradient(180deg, var(--sk-primary-dark) 0%, var(--sk-navy) 100%); }
+.sidebar-siakad .nav-item.active .nav-link { background: rgba(255, 255, 255, .1); border-left: 4px solid #fbbf24; }
+.sidebar-siakad .sidebar-brand { letter-spacing: .12em; }
+
+.btn-primary { background-color: var(--sk-primary); border-color: var(--sk-primary); }
+.btn-primary:hover,
+.btn-primary:focus { background-color: var(--sk-primary-dark); border-color: var(--sk-primary-dark); }
+.text-primary { color: var(--sk-primary) !important; }
+.border-left-primary { border-left-color: var(--sk-primary) !important; }
+a { color: var(--sk-primary); }
+.page-item.active .page-link { background-color: var(--sk-primary); border-color: var(--sk-primary); }
+.page-link { color: var(--sk-primary); }
+.form-control:focus { border-color: var(--sk-primary); box-shadow: 0 0 0 .2rem rgba(30, 64, 175, .2); }
+:focus-visible { outline: 3px solid #f59e0b; outline-offset: 2px; }
+
+.table thead th { border-top: 0; font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; color: #5a5c69; }
+.table td { vertical-align: middle; }
+.tabular { font-variant-numeric: tabular-nums; }
+
+.periode-chip {
+    align-items: center;
+    padding: .35rem .8rem;
+    border-radius: 2rem;
+    background: var(--sk-soft);
+    color: var(--sk-primary-dark);
+    font-weight: 700;
+    font-size: .85rem;
+}
+
+.badge-role { font-size: .75rem; padding: .35em .6em; color: #fff; }
+.role-admin { background: var(--sk-primary); }
+.role-dosen { background: #7c3aed; }
+.role-mahasiswa { background: var(--sk-success); }
+
+.badge-nilai { min-width: 2.2rem; font-size: .85rem; padding: .35em .5em; }
+.nilai-a { background: #dcfce7; color: var(--sk-success); }
+.nilai-b { background: var(--sk-soft); color: var(--sk-primary-dark); }
+.nilai-c { background: #fef3c7; color: var(--sk-warning); }
+.nilai-d { background: #fee2e2; color: var(--sk-danger); }
+
+.alert-flash { border-left: 4px solid currentColor; }
+
+/* Kartu IPK besar di dashboard mahasiswa */
+.ipk-hero {
+    background: linear-gradient(135deg, var(--sk-primary) 0%, var(--sk-navy) 100%);
+    color: #fff;
+    border-radius: .75rem;
+}
+.ipk-hero .angka { font-size: 3.25rem; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+.ipk-hero .label { text-transform: uppercase; letter-spacing: .1em; font-size: .75rem; opacity: .8; }
+
+/* Meter SKS / kuota */
+.meter { height: .5rem; border-radius: 1rem; background: #e3e6f0; overflow: hidden; }
+.meter > span { display: block; height: 100%; background: var(--sk-primary); }
+.meter.penuh > span { background: var(--sk-danger); }
+.meter.hampir > span { background: #d97706; }
+
+.input-nilai { width: 6rem; text-align: right; font-variant-numeric: tabular-nums; }
+
+/* Login */
+.login-bg { min-height: 100vh; background: linear-gradient(135deg, var(--sk-primary-dark), var(--sk-navy)); }
+.login-panel { border-radius: 1rem; overflow: hidden; }
+.login-side { background: var(--sk-soft); color: var(--sk-primary-dark); }
+.login-side .ikon { width: 3.5rem; height: 3.5rem; border-radius: 1rem; background: var(--sk-primary); color: #fff; display: inline-flex; align-items: center; justify-content: center; font-size: 1.5rem; }
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+}

@@ -1,0 +1,63 @@
+/* Penyesuaian tema SB Admin 2 agar senada dengan halaman publik */
+:root {
+    --sp-primary: #1e40af;
+    --sp-primary-dark: #1e3a8a;
+    --sp-primary-soft: #dbeafe;
+}
+
+body,
+.tooltip,
+.popover {
+    font-family: "Atkinson Hyperlegible", "Nunito", system-ui, sans-serif;
+}
+
+.bg-gradient-primary {
+    background-color: var(--sp-primary);
+    background-image: linear-gradient(180deg, #2447c2 10%, var(--sp-primary-dark) 100%);
+}
+
+.btn-primary { background-color: var(--sp-primary); border-color: var(--sp-primary); }
+.btn-primary:hover,
+.btn-primary:focus { background-color: var(--sp-primary-dark); border-color: var(--sp-primary-dark); }
+.text-primary { color: var(--sp-primary) !important; }
+.border-left-primary { border-left-color: var(--sp-primary) !important; }
+.badge-primary { background-color: var(--sp-primary); }
+a { color: var(--sp-primary); }
+
+.page-item.active .page-link { background-color: var(--sp-primary); border-color: var(--sp-primary); }
+.page-link { color: var(--sp-primary); }
+
+.form-control:focus { border-color: var(--sp-primary); box-shadow: 0 0 0 .2rem rgba(30, 64, 175, .2); }
+:focus-visible { outline: 3px solid #f59e0b; outline-offset: 2px; }
+
+.table thead th { border-top: 0; font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; color: #5a5c69; }
+.table td { vertical-align: middle; }
+
+.avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    background: var(--sp-primary-soft);
+    color: var(--sp-primary-dark);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.foto-preview {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 1rem;
+    object-fit: cover;
+    border: 2px dashed #b8c8e6;
+    background: #f5f8fd;
+}
+
+.ipk-bar { height: .45rem; border-radius: 1rem; background: #e3e6f0; overflow: hidden; }
+.ipk-bar > span { display: block; height: 100%; background: var(--sp-primary); }
+
+.badge-role { font-size: .75rem; padding: .35em .6em; }
+.alert-flash { border-left: 4px solid currentColor; }
