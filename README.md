@@ -4,8 +4,6 @@
 
 A student information portal, an academic information system, and a campus shop in one repository. Each application has its own routes, session cookies, database schema, migrations, and seeded demo users.
 
-**William Hans Chandra · 5025241138 · Pemrograman Berbasis Kerangka Kerja D**
-
 This repository contains the source and documentation for PBKK Week 9. It is intended for local study and portfolio review. The UI is in Indonesian; this README is the main English documentation. The [Indonesian report](README.id.md) explains the coursework, selected implementation details, and all captured features in greater depth.
 
 ## Contents
